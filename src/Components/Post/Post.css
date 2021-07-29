@@ -1,0 +1,28 @@
+
+.singlePost {
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    border: 1px solid royalblue;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin: 7px;
+    box-sizing: border-box;
+    background: #eee;
+    cursor: pointer;
+}
+.singlePost:hover {
+    opacity: .7;
+    border-color: black;
+    box-shadow: 1px 2px 7px 2px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 960px) {
+    .posts{
+        flex-wrap: wrap;
+    }
+    .singlePost {
+        width: 100% ;
+        height: 100%;
+    }
+}

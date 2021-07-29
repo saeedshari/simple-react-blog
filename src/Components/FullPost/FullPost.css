@@ -1,0 +1,23 @@
+.fullPost {
+    text-align: center;
+    width: 70%;
+    min-height: 35%;
+    border: 1px solid royalblue;
+    border-radius: 7px;
+    margin: 20px auto;
+    padding: 10px 15px;
+}
+
+.fullPost button {
+    border: none;
+    background: transparent;
+    color: red;
+    font-weight: 600;
+    font-size: small;
+    cursor: pointer;
+    transition: font-size 0.4s ease;
+}
+
+.fullPost button:hover{
+    font-size: 16px;
+}
