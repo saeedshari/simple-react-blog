@@ -1,7 +1,7 @@
 
 .singlePost {
-    width: 25%;
-    height: 25%;
+    width: 40%;
+    min-height: 180px;
     text-align: center;
     border: 1px solid royalblue;
     border-radius: 7px;
@@ -22,7 +22,6 @@
         flex-wrap: wrap;
     }
     .singlePost {
-        width: 100% ;
-        height: 100%;
+        width: 70% ;
     }
 }
